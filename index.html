@@ -25,6 +25,18 @@
       height: auto;
     }
 
+    .p-relative {
+      position: relative;
+    }
+
+    .overlay-text {
+      position: absolute;
+      top: 88px;
+      right: 56px; 
+      background: rgb(0, 0, 0); /* Fallback color */
+      background: rgba(0, 0, 0, 0.596); /* Black background with 0.5 opacity */
+    }
+
     .partner-logo {
       width: 200px;
       height: auto;
@@ -50,14 +62,15 @@
 </head>
 <body>
   <!-- Menu Navigation -->
-  <nav class="container mb-5 d-flex justify-content-between align-items-center">
+  <nav class="container mb-5 pt-4 d-flex justify-content-between align-items-center">
     <img src="img/LOGO HIJRAH ACADEMY-black.png" alt="Logo Hijrah Academy" class="logo">
     <a href="" class="text-dark font-weight-bold">Kategori Kelas</a> 
   </nav>
 
-  <!-- Section Showcase Video-->
-  <section class="container mb-5">
-    <img class="img-fluid" src="https://via.placeholder.com/1400x600" alt="">
+  <!-- Section Showcase -->
+  <section class="container mb-5 p-relative">
+    <img class="img-fluid" src="img/aboutus-header.png" alt="">
+    <h2 class="overlay-text text-wrap text-right text-white p-4 f-roboto-slab">Everyone Has A Story To Tell <br> This Is Ours</h2>
   </section>
 
   <!-- Section About Yudha Adhyaksa-->
